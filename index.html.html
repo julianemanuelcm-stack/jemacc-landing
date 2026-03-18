@@ -340,6 +340,37 @@ section {
   max-width: 560px;
 }
 
+/* VIDEO SECTION */
+.video-section {
+  padding: 100px 0;
+  background: var(--cream);
+}
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(26,26,26,0.12);
+  aspect-ratio: 16/9;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.video-section .section-tag {
+  text-align: center;
+}
+.video-section .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 /* PROBLEMA SECTION */
 .problema {
   background: var(--white);
@@ -1100,6 +1131,19 @@ footer a {
     <div class="marquee-item">Instagram que vende <span class="dot"></span> WhatsApp Business <span class="dot"></span> Sistema 3D <span class="dot"></span> 75 días <span class="dot"></span> Negocios físicos <span class="dot"></span> Sin agencia <span class="dot"></span> Canal comercial <span class="dot"></span> Consultas reales <span class="dot"></span></div>
   </div>
 </div>
+
+<!-- VIDEO -->
+<section class="video-section">
+  <div class="container">
+    <div class="fade-up">
+      <div class="section-tag">Conocé el método</div>
+      <h2 class="section-title">Mirá cómo funciona.</h2>
+    </div>
+    <div class="video-wrapper fade-up">
+      <iframe src="https://iframe.mediadelivery.net/embed/619605/db213290-319d-41b8-812f-3796c8202967?autoplay=true&muted=true&loop=true&preload=true&showHeatmap=false&progressColor=transparent&seekColor=transparent" loading="lazy" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
 
 <!-- PROBLEMA -->
 <section class="problema" id="problema">
