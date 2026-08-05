@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jemacc — Activación comercial para negocios físicos</title>
+<title>Jemacc — Sistema de contenido orgánico y construcción de marca</title>
+<meta name="description" content="Activación 75: en 75 días implementamos tu sistema de contenido orgánico y construcción de marca, hasta conseguir tus primeros leads.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -447,7 +448,7 @@ section {
   line-height: 1.5;
 }
 
-/* SOLUTION - SISTEMA 3D */
+/* SOLUTION - CÓMO SE DAN LOS 75 DÍAS */
 .sistema {
   position: relative;
 }
@@ -648,6 +649,26 @@ section {
   font-size: 14px;
   color: var(--gray);
 }
+
+.resultado-reels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.resultado-reel-card {
+  background: var(--cream);
+  border-radius: 20px;
+  padding: 24px;
+  border: 1px solid rgba(26,26,26,0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resultado-reel-card iframe,
+.resultado-reel-card blockquote { width: 100%; max-width: 340px; margin: 0 auto; }
 
 /* DESPUES SECTION */
 .despues {
@@ -1059,6 +1080,7 @@ footer a {
   .problema-grid,
   .incluye-grid,
   .resultados-grid,
+  .resultado-reels,
   .para-quien-grid,
   .sobre-mi-content {
     grid-template-columns: 1fr;
@@ -1094,6 +1116,8 @@ footer a {
       <li><a href="#sistema">Método</a></li>
       <li><a href="#resultados">Resultados</a></li>
       <li><a href="#faq">Preguntas</a></li>
+      <li><a href="otros-servicios.html">Otros servicios</a></li>
+      <li><a href="founder.html">Founder</a></li>
       <li><a href="https://wa.me/5491123866421?text=Hola%2C%20quiero%20info%20sobre%20Activaci%C3%B3n%2075" class="nav-cta" target="_blank">Hablemos →</a></li>
     </ul>
     <button class="nav-toggle" onclick="document.getElementById('navbar').classList.toggle('nav-open')" aria-label="Menu">
@@ -1106,9 +1130,9 @@ footer a {
 <section class="hero">
   <div class="container">
     <div class="hero-content fade-up">
-      <div class="hero-tag">Activación comercial digital</div>
-      <h1>Tu negocio ya vende.<br>Pero <em>depende del paso<br>de la gente.</em></h1>
-      <p class="hero-sub">En 75 días instalamos un canal digital que genera consultas reales por WhatsApp. Sin depender de una agencia, sin improvisar, sin volverte loco con Instagram.</p>
+      <div class="hero-tag">Activación 75</div>
+      <h1>Publicás contenido.<br>Pero nadie armó<br><em>un sistema</em> detrás.</h1>
+      <p class="hero-sub">¿Cuántas consultas te llegaron esta semana por Instagram? Si la respuesta es "ninguna" o "no sé", el problema no es tu contenido — es que no hay nada que conecte lo que subís con la gente que después te escribe.</p>
       <div class="hero-cta-group">
         <a href="https://wa.me/5491123866421?text=Hola%2C%20quiero%20info%20sobre%20Activaci%C3%B3n%2075" class="btn-primary" target="_blank">
           <svg class="cta-whatsapp-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
@@ -1127,87 +1151,74 @@ footer a {
 <!-- MARQUEE -->
 <div class="marquee-strip">
   <div class="marquee-track">
-    <div class="marquee-item">Instagram que vende <span class="dot"></span> WhatsApp Business <span class="dot"></span> Sistema 3D <span class="dot"></span> 75 días <span class="dot"></span> Negocios físicos <span class="dot"></span> Sin agencia <span class="dot"></span> Canal comercial <span class="dot"></span> Consultas reales <span class="dot"></span></div>
-    <div class="marquee-item">Instagram que vende <span class="dot"></span> WhatsApp Business <span class="dot"></span> Sistema 3D <span class="dot"></span> 75 días <span class="dot"></span> Negocios físicos <span class="dot"></span> Sin agencia <span class="dot"></span> Canal comercial <span class="dot"></span> Consultas reales <span class="dot"></span></div>
+    <div class="marquee-item">Contenido orgánico <span class="dot"></span> Guion + edición <span class="dot"></span> Construcción de marca <span class="dot"></span> 75 días <span class="dot"></span> Plan a medida <span class="dot"></span> Presencial BA · Online <span class="dot"></span> Datos semanales <span class="dot"></span> Sistema propio <span class="dot"></span></div>
+    <div class="marquee-item">Contenido orgánico <span class="dot"></span> Guion + edición <span class="dot"></span> Construcción de marca <span class="dot"></span> 75 días <span class="dot"></span> Plan a medida <span class="dot"></span> Presencial BA · Online <span class="dot"></span> Datos semanales <span class="dot"></span> Sistema propio <span class="dot"></span></div>
   </div>
 </div>
-
-<!-- VIDEO -->
-<section class="video-section">
-  <div class="container">
-    <div class="fade-up">
-      <div class="section-tag">Conocé el método</div>
-      <h2 class="section-title">Mirá cómo funciona.</h2>
-    </div>
-    <div class="video-wrapper fade-up">
-      <iframe src="https://iframe.mediadelivery.net/embed/619605/db213290-319d-41b8-812f-3796c8202967?autoplay=true&muted=true&loop=true&preload=true&showHeatmap=false&progressColor=transparent&seekColor=transparent" loading="lazy" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
-</section>
 
 <!-- PROBLEMA -->
 <section class="problema" id="problema">
   <div class="container">
     <div class="fade-up">
       <div class="section-tag">El problema real</div>
-      <h2 class="section-title">No es que no sabés<br>usar Instagram.</h2>
-      <p class="section-subtitle">Es que tu negocio depende de cosas que no controlás. Y cuando el contexto se pone difícil, eso se siente rápido.</p>
+      <h2 class="section-title">No te falta contenido.<br>Te falta un sistema.</h2>
+      <p class="section-subtitle">Publicás, pero no hay nada que conecte lo que subís con la gente que después te escribe. Y sin eso, no hay forma de saber qué funciona.</p>
     </div>
     <div class="problema-grid">
       <ul class="problema-list fade-up">
         <li>
-          <div class="icon">📍</div>
-          <div><strong>Tránsito físico.</strong> Si la gente no pasa, no vendés. No importa qué tan bueno sea tu producto.</div>
-        </li>
-        <li>
-          <div class="icon">🗣</div>
-          <div><strong>Boca a boca.</strong> Funciona, pero es lento e impredecible. No podés planificar tu mes en base a recomendaciones.</div>
-        </li>
-        <li>
           <div class="icon">📱</div>
-          <div><strong>Promociones aisladas.</strong> Subís algo a Instagram cuando te acordás, sin estrategia, sin continuidad, sin resultados.</div>
+          <div><strong>Contenido sin estrategia.</strong> Subís algo cuando te acordás, sin guion, sin pilares, sin continuidad detrás.</div>
+        </li>
+        <li>
+          <div class="icon">🗓</div>
+          <div><strong>Publicaciones sueltas.</strong> No hay un mes armado. Hay improvisación día a día, y eso se nota.</div>
+        </li>
+        <li>
+          <div class="icon">✂️</div>
+          <div><strong>Edición que te consume tiempo.</strong> Abrís la app, editás vos, publicás vos — tiempo que no vuelve a tu negocio.</div>
         </li>
         <li>
           <div class="icon">📉</div>
-          <div><strong>Sin flujo nuevo.</strong> Cuando no hay un sistema para generar clientes nuevos de forma predecible, la facturación se estanca.</div>
+          <div><strong>Sin datos, sin ajuste.</strong> Sin alguien que lea los números cada semana, nunca sabés qué mover.</div>
         </li>
       </ul>
       <div class="problema-visual fade-up">
         <div class="problema-visual-inner">
           <div class="big-stat">0</div>
-          <p class="big-stat-label">ventas generadas por redes sociales<br>en la mayoría de los negocios físicos.</p>
+          <p class="big-stat-label">consultas si publicás<br>sin un sistema detrás.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- SISTEMA 3D -->
+<!-- CÓMO SE DAN LOS 75 DÍAS -->
 <section class="sistema" id="sistema">
   <div class="container">
     <div class="fade-up" style="text-align:center; max-width:620px; margin:0 auto;">
-      <div class="section-tag" style="display:inline-block;">El método</div>
-      <h2 class="section-title">Sistema 3D</h2>
-      <p class="section-subtitle" style="margin:0 auto;">No es una teoría. Es una forma práctica de ordenar tu canal digital en tres fases claras.</p>
+      <div class="section-tag" style="display:inline-block;">Cómo se dan los 75 días</div>
+      <h2 class="section-title">Tres etapas.<br>Un solo objetivo.</h2>
+      <p class="section-subtitle" style="margin:0 auto;">No es una teoría. Es la forma concreta en la que se arma tu sistema de contenido, semana a semana.</p>
     </div>
     <div class="sistema-cards fade-up">
       <div class="sistema-card">
         <div class="sistema-card-number">01</div>
         <div class="sistema-card-icon">🔍</div>
-        <h3>Descubrimiento</h3>
-        <p>Contenido que hace visible tu negocio frente a gente que vive cerca y puede comprar. Dejás de ser invisible en tu zona.</p>
+        <h3>Semana 1–2</h3>
+        <p>Armamos la estrategia y los pilares de contenido a medida de tu negocio y tu nicho.</p>
       </div>
       <div class="sistema-card">
         <div class="sistema-card-number">02</div>
         <div class="sistema-card-icon">💬</div>
-        <h3>Demanda</h3>
-        <p>Publicaciones que generan mensajes reales, no likes vacíos. Cada contenido está diseñado para que alguien te escriba.</p>
+        <h3>Semana 3 en adelante</h3>
+        <p>Producción y publicación constante. Guion, grabación, edición y datos, semana a semana.</p>
       </div>
       <div class="sistema-card">
         <div class="sistema-card-number">03</div>
         <div class="sistema-card-icon">📲</div>
-        <h3>Derivación</h3>
-        <p>Un proceso simple para mover a los interesados a WhatsApp Business y cerrar la venta. Del "me interesa" al "lo llevo".</p>
+        <h3>Últimas semanas</h3>
+        <p>Ajustamos según los datos, no a ojo, hasta tus primeras consultas reales.</p>
       </div>
     </div>
   </div>
@@ -1218,33 +1229,33 @@ footer a {
   <div class="container">
     <div class="fade-up">
       <div class="section-tag">Qué incluye</div>
-      <h2 class="section-title" style="color:white;">75 días de implementación<br>acompañada.</h2>
-      <p class="section-subtitle">No es un curso grabado. No es "mirate los videos y arreglate". Trabajamos juntos.</p>
+      <h2 class="section-title" style="color:white;">Cada plan se arma a medida<br>de tu negocio y tu nicho.</h2>
+      <p class="section-subtitle">No es un mismo plan copiado y pegado para todos los clientes.</p>
     </div>
     <div class="incluye-grid fade-up">
       <div class="incluye-item">
-        <h4><span>→</span> Estrategia personalizada</h4>
-        <p>Qué publicar, cómo decirlo y para qué. Con foco en generar consultas reales, no contenido vacío.</p>
+        <h4><span>→</span> Idea y guion resueltos</h4>
+        <p>No te sentás a pensar qué publicar. Cada pieza te llega con guion e idea resuelta.</p>
       </div>
       <div class="incluye-item">
-        <h4><span>→</span> Plan semanal claro</h4>
-        <p>Sabés exactamente qué hacer cada semana, sin abrumarte. Sin improvisar.</p>
+        <h4><span>→</span> Mes completo armado</h4>
+        <p>Un mes entero de contenido planeado, no publicaciones sueltas cuando hay tiempo.</p>
       </div>
       <div class="incluye-item">
-        <h4><span>→</span> Guiones para videos</h4>
-        <p>Listos para grabar, alineados a la estrategia. Solo tenés que darle play.</p>
+        <h4><span>→</span> Editamos y publicamos</h4>
+        <p>Vos no abrís una app de edición nunca más. Nosotros nos ocupamos de todo.</p>
       </div>
       <div class="incluye-item">
-        <h4><span>→</span> Capacitación práctica</h4>
-        <p>Grabar sin volverte loco, editar desde el celular, lanzar campañas básicas en Meta Ads, usar WhatsApp Business.</p>
+        <h4><span>→</span> Datos, no a ojo</h4>
+        <p>Cada semana sabés qué funcionó y qué no, con números concretos.</p>
       </div>
       <div class="incluye-item">
-        <h4><span>→</span> Auditorías semanales</h4>
-        <p>Revisamos contenido, mensajes, anuncios y conversiones. Ajustamos semana a semana.</p>
+        <h4><span>→</span> Presencial u online</h4>
+        <p>Trabajamos presencial en Buenos Aires, u online si estás en otra parte del mundo.</p>
       </div>
       <div class="incluye-item">
-        <h4><span>→</span> Canal funcionando en 75 días</h4>
-        <p>Terminás con el sistema instalado, operativo y generando resultados. Y sigue funcionando después.</p>
+        <h4><span>→</span> El sistema queda</h4>
+        <p>En algunos casos, pasados los 6 meses, podés seguir llevándolo por tu cuenta.</p>
       </div>
     </div>
     <div class="incluye-bg-text">75</div>
@@ -1256,27 +1267,37 @@ footer a {
   <div class="container">
     <div class="fade-up">
       <div class="section-tag">Casos reales</div>
-      <h2 class="section-title">Negocios reales,<br>resultados reales.</h2>
-      <p class="section-subtitle">No promesas. Implementaciones concretas con números verificables.</p>
+      <h2 class="section-title">Negocios distintos.<br>El mismo sistema.</h2>
+      <p class="section-subtitle">No promesas. Implementaciones concretas, con el contenido real que las sostiene.</p>
     </div>
     <div class="resultados-grid fade-up">
       <div class="resultado-card">
-        <div class="resultado-card-tag">Piletas y limpieza</div>
-        <h3>EsteClor</h3>
-        <p>Pasaron de repartir flyers sueltos por WhatsApp a tener un sistema de publicidad funcionando en Meta que genera consultas calificadas todos los días.</p>
+        <div class="resultado-card-tag">Muebles de diseño a medida</div>
+        <h3>Yacar</h3>
+        <p>En tres semanas de contenido conseguimos las primeras dos consultas de potenciales clientes — en un rubro donde la mayoría de las ventas llegan por referido, no por redes.</p>
         <div class="resultado-metric">
-          <strong>+6</strong>
-          <span>consultas calificadas por día desde Meta Ads</span>
+          <strong>2</strong>
+          <span>leads en las primeras 3 semanas de contenido</span>
         </div>
       </div>
       <div class="resultado-card">
-        <div class="resultado-card-tag">Deporte y recreación</div>
-        <h3>BVPaddle</h3>
-        <p>Arrancaron sin presencia en redes. Hoy tienen una comunidad activa que genera alquileres todas las semanas con contenido orgánico y una estrategia clara.</p>
+        <div class="resultado-card-tag">Club de pádel</div>
+        <h3>Bella Vista Padel</h3>
+        <p>Logramos consultas todas las semanas, de forma sostenida, solo con contenido orgánico — sin pauta paga.</p>
         <div class="resultado-metric">
-          <strong>4.2K</strong>
-          <span>visualizaciones en 30 días con presencia desde cero</span>
+          <strong>100%</strong>
+          <span>orgánico: sin pauta paga, consultas todas las semanas</span>
         </div>
+      </div>
+    </div>
+    <div class="resultado-reels fade-up">
+      <div class="resultado-reel-card">
+        <div class="resultado-card-tag" style="margin-bottom:12px;">Yacar — producción de lanzamiento de marca</div>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DW4lSQSCRnP/" data-instgrm-version="14"></blockquote>
+      </div>
+      <div class="resultado-reel-card">
+        <div class="resultado-card-tag" style="margin-bottom:12px;">Bella Vista Padel — cobertura de evento</div>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DOhUfjdDaQ1/" data-instgrm-version="14"></blockquote>
       </div>
     </div>
   </div>
@@ -1308,8 +1329,8 @@ footer a {
         <div class="despues-item">
           <div class="despues-icon">✓</div>
           <div>
-            <h4>Facturación extra medible</h4>
-            <p>Un 20-30% extra de facturación mensual solo por este canal.</p>
+            <h4>Contenido con guion e idea resueltos</h4>
+            <p>Cada pieza te llega lista. No te sentás más a pensar qué publicar.</p>
           </div>
         </div>
       </div>
@@ -1331,8 +1352,8 @@ footer a {
         <div class="despues-item">
           <div class="despues-icon">✓</div>
           <div>
-            <h4>Tu negocio deja de achicarse</h4>
-            <p>Mientras otros dependen del tránsito, vos atraés gente nueva cada semana.</p>
+            <h4>Tu marca gana presencia constante</h4>
+            <p>Dejás de depender de publicar cuando te acordás. Hay un plan corriendo.</p>
           </div>
         </div>
       </div>
@@ -1351,21 +1372,16 @@ footer a {
       <div class="para-quien-box si">
         <h3>Es para vos si:</h3>
         <ul class="para-quien-list">
-          <li>Tenés un negocio físico que ya vende</li>
-          <li>Tenés local, clientes y experiencia</li>
-          <li>Pero hoy no generás ventas desde redes</li>
-          <li>Sentís que Instagram es una obligación más, no una herramienta</li>
-          <li>Querés un canal que te traiga gente real escribiéndote por WhatsApp</li>
-          <li>Estás dispuesto a involucrarte durante 75 días</li>
+          <li>Tenés una marca o negocio que quiere presencia constante en redes y todavía no tiene un sistema armado</li>
+          <li>Estás dispuesto a un proceso de 75 días — no buscás un resultado de un día para el otro</li>
+          <li>Querés contenido pensado específicamente para tu negocio, no una plantilla genérica</li>
         </ul>
       </div>
       <div class="para-quien-box no">
         <h3>No es para vos si:</h3>
         <ul class="para-quien-list">
-          <li>Todavía no vendés en tu negocio físico</li>
-          <li>Querés delegar todo y no participar</li>
-          <li>Buscás magia rápida sin implementar</li>
-          <li>No tenés disposición a grabar contenido simple</li>
+          <li>Buscás resultados inmediatos, de la semana a la otra</li>
+          <li>Solo querés "postear más" sin una estrategia detrás</li>
         </ul>
       </div>
     </div>
@@ -1384,18 +1400,18 @@ footer a {
       </div>
       <div class="sobre-mi-text">
         <h3>Julián Emanuel</h3>
-        <p>Tengo 23 años, soy estudiante de Ciencias de la Comunicación y hace más de 3 años ayudo a marcas a comunicar y vender a través de redes sociales.</p>
+        <p>Tengo 23 años, soy estudiante de la Licenciatura en Estudios de la Comunicación y hace más de 3 años ayudo a marcas a comunicar y vender a través de redes sociales.</p>
         <p>En 2021 arranqué ayudando a la fábrica de muebles de mi hermano. <strong>Sin muchos conocimientos, pero con muchas ganas.</strong> Desde ese momento no paré: pasé por roles de ventas, edición de video, estrategia de contenido y más, trabajando con distintas marcas.</p>
-        <p>Con el tiempo entendí algo clave: <strong>el problema de la mayoría de los negocios no es el producto ni la atención, es que no tienen un canal que genere clientes nuevos cada semana.</strong></p>
-        <p>Hoy sigo buscando crecer y ayudar a más negocios a captar la atención de las personas, <strong>para convertir visitas en clientes.</strong> Activación 75 es mi forma de hacerlo: un sistema concreto, acompañado, y que queda funcionando después de los 75 días.</p>
+        <p>Con el tiempo entendí algo clave: <strong>el problema de la mayoría de las marcas no es el producto ni la atención, es que no tienen un sistema de contenido que genere consultas nuevas cada semana.</strong></p>
+        <p>Hoy sigo buscando crecer y ayudar a más marcas a captar la atención de las personas, <strong>para convertir seguidores en clientes.</strong> Activación 75 es mi forma de hacerlo: un sistema concreto, hecho a medida, que queda funcionando después de los 75 días.</p>
       </div>
     </div>
     
     <!-- VOS CARD -->
     <div class="vos-card fade-up">
       <h3>Capaz te sentís identificado.</h3>
-      <p>Sos alguien que se levanta temprano, abre el local, atiende a los clientes, resuelve problemas, cierra la persiana. <strong>Hacés bien tu trabajo.</strong> Pero cuando mirás Instagram, sentís que es otro mundo. Que es para gente que tiene tiempo, que sabe de marketing, que tiene 20 años.</p>
-      <p style="margin-top:16px;">La realidad es más simple: <strong>tu negocio necesita un canal que genere clientes nuevos cada semana.</strong> No necesitás ser influencer. No necesitás que te guste Instagram. Necesitás que tu negocio siga vivo, visible y vendiendo.</p>
+      <p>Sos alguien que arma su marca o su negocio con esfuerzo real: producto, atención, calidad. <strong>Hacés bien tu trabajo.</strong> Pero cuando mirás Instagram, sentís que es otro mundo. Que hay que saber de marketing, de edición, de algoritmos, y no tenés tiempo para eso.</p>
+      <p style="margin-top:16px;">La realidad es más simple: <strong>tu marca necesita un sistema de contenido que la haga visible, semana a semana.</strong> No necesitás ser influencer. No necesitás convertirte en editor de video. Necesitás que tu presencia en redes trabaje para vos, no al revés.</p>
     </div>
   </div>
 </section>
@@ -1413,42 +1429,42 @@ footer a {
           ¿Necesito saber de marketing o redes sociales?
           <span class="faq-toggle">+</span>
         </button>
-        <div class="faq-answer"><p>No. El sistema está diseñado para dueños de negocios que no son expertos en digital. Te guío paso a paso en todo: desde grabar un video simple hasta lanzar una campaña básica. Solo necesitás ganas de implementar.</p></div>
+        <div class="faq-answer"><p>No. El sistema está pensado para dueños de marcas y negocios que no son expertos en digital. Vos te enfocás en tu negocio; nosotros armamos la estrategia, el guion y la edición.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">
-          ¿Cuánto tiempo me lleva por semana?
+          ¿Tengo que grabar yo el contenido?
           <span class="faq-toggle">+</span>
         </button>
-        <div class="faq-answer"><p>Entre 3 y 5 horas semanales. El plan está diseñado para que puedas implementar sin descuidar tu negocio. Sabés exactamente qué hacer cada semana.</p></div>
+        <div class="faq-answer"><p>Depende del formato. En algunos casos grabás vos con un guion ya resuelto; en otros, coordinamos una grabación conjunta. Se define según el plan armado para tu negocio.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+          ¿Incluye pauta publicitaria paga?
+          <span class="faq-toggle">+</span>
+        </button>
+        <div class="faq-answer"><p>Activación 75 es un sistema de contenido orgánico. No incluye pauta paga en Meta Ads — el foco está en construir el canal y la marca de forma sostenida.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">
           ¿Qué pasa después de los 75 días?
           <span class="faq-toggle">+</span>
         </button>
-        <div class="faq-answer"><p>El sistema queda instalado y funcionando. Tenés la estrategia, los procesos y la capacidad de sostenerlo vos mismo. Si querés seguir con acompañamiento, lo evaluamos juntos.</p></div>
+        <div class="faq-answer"><p>En algunos casos, pasados los 6 meses de trabajo conjunto, tu negocio puede seguir llevando el sistema por su cuenta, sin necesidad de seguir trabajando con nosotros.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">
           ¿Sirve para mi rubro?
           <span class="faq-toggle">+</span>
         </button>
-        <div class="faq-answer"><p>Si tenés un negocio físico con clientes reales — gastronomía, salud, estética, deportes, servicios, comercio — el sistema aplica. Se adapta a tu rubro, tu zona y tu capacidad operativa.</p></div>
+        <div class="faq-answer"><p>Ya lo aplicamos en rubros bien distintos — desde muebles hasta software, educación y eventos. Cada plan se arma a medida de tu negocio y tu nicho, no es una plantilla genérica.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">
-          ¿Es como contratar una agencia?
+          ¿Cómo trabajamos si no estoy en Buenos Aires?
           <span class="faq-toggle">+</span>
         </button>
-        <div class="faq-answer"><p>No. Una agencia hace las cosas por vos y cuando se van, se va todo. Acá instalamos un sistema que vos vas a saber manejar. No dependés de nadie para mantenerlo funcionando.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">
-          ¿Necesito invertir en publicidad?
-          <span class="faq-toggle">+</span>
-        </button>
-        <div class="faq-answer"><p>Te enseño a lanzar campañas básicas en Meta Ads con presupuestos mínimos. No necesitás grandes inversiones. Lo que sí necesitás es entender cómo funciona para tomar buenas decisiones.</p></div>
+        <div class="faq-answer"><p>Sin problema. Trabajamos presencial en Buenos Aires, u online si estás en otra parte del mundo — el proceso es el mismo.</p></div>
       </div>
     </div>
   </div>
@@ -1459,7 +1475,7 @@ footer a {
   <div class="container">
     <div class="fade-up">
       <h2>El sistema queda.<br><em>La decisión es tuya.</em></h2>
-      <p>No es para crecer "algún día". Es para que tu negocio<br>deje de depender solo del paso de la gente.</p>
+      <p>No es para crecer "algún día". Es para que tu contenido<br>empiece a trabajar para vos, no al revés.</p>
       <a href="https://wa.me/5491123866421?text=Hola%2C%20quiero%20info%20sobre%20Activaci%C3%B3n%2075" class="btn-primary" target="_blank">
         <svg class="cta-whatsapp-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         Escribime por WhatsApp
@@ -1471,11 +1487,14 @@ footer a {
 <!-- FOOTER -->
 <footer>
   <div class="container">
-    <p style="margin-bottom:8px;"><img src="data:image/png;base64,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" alt="Jemacc" style="height:28px; width:auto; opacity:0.6;"></p>
-    <p>Activación comercial para negocios físicos.</p>
-    <p style="margin-top:12px;">© 2025 Jemacc. Todos los derechos reservados. · <a href="#">Política de privacidad</a></p>
+    <p style="margin-bottom:8px;"><img src="data:image/png;base64,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" alt="Jemacc" style="height:28px; width:auto; opacity:0.85;"></p>
+    <p>Sistema de contenido orgánico y construcción de marca.</p>
+    <p style="margin-top:12px;">© 2026 Jemacc. Todos los derechos reservados. · <a href="#">Política de privacidad</a></p>
   </div>
 </footer>
+
+<!-- INSTAGRAM EMBEDS -->
+<script async src="//www.instagram.com/embed.js"></script>
 
 <!-- SCROLL ANIMATIONS -->
 <script>
