@@ -1,0 +1,81 @@
+{
+  "ultimaActualizacion": "2026-09-21",
+  "esMuestra": true,
+  "clientes": [
+    {
+      "id": "tredox",
+      "nombre": "Tredox",
+      "kpis": {
+        "alcanceTotal": "38.400",
+        "seguidoresNuevos": "+186",
+        "engagementRate": "3.9%"
+      },
+      "queFunciono": [
+        "Los reels cortos de antes/después de trabajos sobre el auto tuvieron mejor retención que los formatos largos.",
+        "El contenido grabado en el taller, con el equipo trabajando, generó más comentarios que las piezas más producidas.",
+        "Los posts que mencionan modelos específicos (T-Cross, Golf, etc.) atraen búsquedas directas por esos autos."
+      ],
+      "mejorHorario": "Martes y jueves, 19:00–21:00hs",
+      "contenidoDestacado": [
+        {
+          "cliente": "T-Cross",
+          "rol": "Reel de intervención sobre el vehículo",
+          "permalink": null,
+          "pendiente": true
+        },
+        {
+          "cliente": "Pádel — Dan y Adri",
+          "rol": "Reel de contenido de marca",
+          "permalink": null,
+          "pendiente": true
+        }
+      ]
+    },
+    {
+      "id": "celsux",
+      "nombre": "Celsux",
+      "kpis": {
+        "alcanceTotal": "52.900",
+        "seguidoresNuevos": "+241",
+        "engagementRate": "5.6%"
+      },
+      "queFunciono": [
+        "La cobertura en vivo de eventos corporativos generó el pico de alcance más alto del período.",
+        "Los reels con guion y edición narrativa retuvieron mejor que los clips sueltos del evento.",
+        "El contenido que muestra al equipo armando el evento (behind the scenes) tuvo alta tasa de guardados."
+      ],
+      "mejorHorario": "Miércoles, 12:00–14:00hs",
+      "contenidoDestacado": [
+        {
+          "cliente": "Celsux",
+          "rol": "Resumen de evento — guion, grabación y edición",
+          "permalink": "https://www.instagram.com/reel/DbbmSSvMFVl/",
+          "pendiente": false
+        }
+      ]
+    },
+    {
+      "id": "tercer-tiempo",
+      "nombre": "Tercer Tiempo",
+      "kpis": {
+        "alcanceTotal": "29.750",
+        "seguidoresNuevos": "+164",
+        "engagementRate": "4.2%"
+      },
+      "queFunciono": [
+        "El contenido UGC grabado dentro del local se sintió más auténtico y tuvo mejor engagement que las piezas publicitarias.",
+        "Los posts alrededor de partidos y eventos deportivos en vivo concentraron los picos de alcance.",
+        "Las historias con encuestas sobre el menú generaron interacción directa con la audiencia."
+      ],
+      "mejorHorario": "Viernes y sábado, 20:00–22:00hs",
+      "contenidoDestacado": [
+        {
+          "cliente": "Tercer Tiempo",
+          "rol": "Contenido UGC del local",
+          "permalink": "https://www.instagram.com/reel/DZYbMUjMYZp/",
+          "pendiente": false
+        }
+      ]
+    }
+  ]
+}
