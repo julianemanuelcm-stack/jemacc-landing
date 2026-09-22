@@ -18,16 +18,16 @@
       "mejorHorario": "Martes y jueves, 19:00–21:00hs",
       "contenidoDestacado": [
         {
-          "cliente": "T-Cross",
+          "cliente": "T-Cross — la SUV más confiable",
           "rol": "Reel de intervención sobre el vehículo",
-          "permalink": null,
-          "pendiente": true
+          "permalink": "https://www.instagram.com/reel/DdEor79uQJm/",
+          "pendiente": false
         },
         {
-          "cliente": "Pádel — Dan y Adri",
+          "cliente": "Pádel — Dan y Dani",
           "rol": "Reel de contenido de marca",
-          "permalink": null,
-          "pendiente": true
+          "permalink": "https://www.instagram.com/reel/Dc39jozPjEs/",
+          "pendiente": false
         }
       ]
     },
