@@ -1055,6 +1055,29 @@ footer a {
   transform: translateY(0);
 }
 
+/* CLIPS */
+.clips { padding: 80px 0 40px; }
+.clips-track {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 40px 0 24px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(26,26,26,0.2) transparent;
+}
+.clip-card { flex: 0 0 min(320px, 78vw); scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px; }
+.clip-media { background: var(--cream-dark); border-radius: 16px; padding: 12px; border: 1px solid rgba(26,26,26,0.06); overflow: hidden; }
+.clip-media blockquote { width: 100% !important; min-width: 0 !important; max-width: 100% !important; margin: 0 !important; }
+.clip-cap .client { font-weight: 700; font-size: 14.5px; display: block; }
+.clip-cap .role { font-size: 13px; color: var(--gray); }
+
+/* CONVERSION */
+.hero-proof { margin-top: 28px; font-family: 'Space Mono', monospace; font-size: 13px; letter-spacing: 0.5px; color: var(--gray); }
+.hero-proof strong { color: var(--orange); }
+.clips-cta { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin-top: 16px; }
+.clips-cta span { font-size: 14px; color: var(--gray); }
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .nav-links { display: none; }
@@ -1141,6 +1164,7 @@ footer a {
         </a>
         <a href="#por-que" class="btn-secondary">Ver cómo lo hacemos ↓</a>
       </div>
+      <p class="hero-proof"><strong>10 → 21 ventas por mes</strong> en Tredox, en los primeros 45 días.</p>
     </div>
   </div>
   <div class="hero-deco">
@@ -1156,6 +1180,46 @@ footer a {
     <div class="marquee-item">Motor de Creativos <span class="dot"></span> Presencia en tu negocio <span class="dot"></span> 3 días por semana <span class="dot"></span> Auditoría de Ventaja Oculta <span class="dot"></span> Reels, feed e historias <span class="dot"></span> Bot de Derivación <span class="dot"></span> CABA y GBA <span class="dot"></span></div>
   </div>
 </div>
+
+<!-- TRABAJO RECIENTE -->
+<section class="clips" id="trabajo">
+  <div class="container">
+    <div class="fade-up">
+      <div class="section-tag">Así se ve</div>
+      <h2 class="section-title">El contenido que producimos,<br>en movimiento.</h2>
+    </div>
+    <div class="clips-track fade-up">
+      <div class="clip-card">
+        <div class="clip-media"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dc39jozPjEs/" data-instgrm-version="14"></blockquote></div>
+        <div class="clip-cap"><span class="client">Tredox</span><span class="role">Contenido genérico — el más viral</span></div>
+      </div>
+      <div class="clip-card">
+        <div class="clip-media"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DdEor79uQJm/" data-instgrm-version="14"></blockquote></div>
+        <div class="clip-cap"><span class="client">Tredox</span><span class="role">Nicho de autos</span></div>
+      </div>
+      <div class="clip-card">
+        <div class="clip-media"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DdZZS5xPZF6/" data-instgrm-version="14"></blockquote></div>
+        <div class="clip-cap"><span class="client">Tredox</span><span class="role">Nicho de autos</span></div>
+      </div>
+      <div class="clip-card">
+        <div class="clip-media"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DbbmSSvMFVl/" data-instgrm-version="14"></blockquote></div>
+        <div class="clip-cap"><span class="client">Celsux</span><span class="role">Resumen de evento</span></div>
+      </div>
+      <div class="clip-card">
+        <div class="clip-media"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DZYbMUjMYZp/" data-instgrm-version="14"></blockquote></div>
+        <div class="clip-cap"><span class="client">Tercer Tiempo</span><span class="role">Contenido del local</span></div>
+      </div>
+      <div class="clip-card">
+        <div class="clip-media"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DEn8ibLP7zl/" data-instgrm-version="14"></blockquote></div>
+        <div class="clip-cap"><span class="client">JCA Autos Seleccionados</span><span class="role">Guion, grabación y edición</span></div>
+      </div>
+    </div>
+    <div class="fade-up clips-cta">
+      <a href="https://wa.me/5491123866421?text=Hola%2C%20quiero%20agendar%20una%20llamada%20de%2020%20minutos%20sobre%20Motor%20de%20Creativos" class="btn-primary" target="_blank">Agendar una llamada</a>
+      <span>20 minutos, sin costo y sin compromiso.</span>
+    </div>
+  </div>
+</section>
 
 <!-- PROBLEMA -->
 <section class="problema" id="problema">
@@ -1241,6 +1305,28 @@ footer a {
   </div>
 </section>
 
+<!-- RESULTADOS -->
+<section id="resultados">
+  <div class="container">
+    <div class="fade-up">
+      <div class="section-tag">Prueba social</div>
+      <h2 class="section-title">Un negocio real.<br>El método funcionando.</h2>
+      <p class="section-subtitle">No promesas. Trabajo real, con el contenido que lo sostiene.</p>
+    </div>
+    <div class="resultados-grid fade-up">
+      <div class="resultado-card" style="grid-column:1 / -1; background:var(--white);">
+        <div class="resultado-card-tag">Concesionario de autos</div>
+        <h3>Tredox</h3>
+        <p>En los primeros 45 días pasamos de 10 a 21 ventas por mes. Y Marti — influencer y familiar de uno de los socios — empezó a compartir contenido del concesionario desde la segunda semana de trabajo, algo que la Auditoría de Ventaja Oculta sacó a la luz.</p>
+        <div class="resultado-metric">
+          <strong>10 → 21</strong>
+          <span>ventas por mes en los primeros 45 días</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- QUE INCLUYE -->
 <section class="incluye" id="incluye">
   <div class="container">
@@ -1310,96 +1396,6 @@ footer a {
         <div class="resultado-card-tag">Crecimiento</div>
         <h3>Escalado de equipo</h3>
         <p>A partir de los primeros 90 días, si la relación lo amerita, se suma una persona del equipo de Motor de Creativos para la grabación — sin cambiar el servicio ni tu punto de contacto.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- RESULTADOS -->
-<section id="resultados">
-  <div class="container">
-    <div class="fade-up">
-      <div class="section-tag">Prueba social</div>
-      <h2 class="section-title">Un negocio real.<br>El método funcionando.</h2>
-      <p class="section-subtitle">No promesas. Trabajo real, con el contenido que lo sostiene.</p>
-    </div>
-    <div class="resultados-grid fade-up">
-      <div class="resultado-card" style="grid-column:1 / -1; background:var(--white);">
-        <div class="resultado-card-tag">Concesionario de autos</div>
-        <h3>Tredox</h3>
-        <p>En los primeros 45 días pasamos de 10 a 21 ventas por mes. Y Marti — influencer y familiar de uno de los socios — empezó a compartir contenido del concesionario desde la segunda semana de trabajo, algo que la Auditoría de Ventaja Oculta sacó a la luz.</p>
-        <div class="resultado-metric">
-          <strong>10 → 21</strong>
-          <span>ventas por mes en los primeros 45 días</span>
-        </div>
-      </div>
-    </div>
-    <div class="resultado-reels fade-up">
-      <div class="resultado-reel-card" style="background:var(--white);">
-        <div class="resultado-card-tag" style="margin-bottom:12px;">Tredox — la SUV más confiable</div>
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DdEor79uQJm/" data-instgrm-version="14"></blockquote>
-      </div>
-      <div class="resultado-reel-card" style="background:var(--white);">
-        <div class="resultado-card-tag" style="margin-bottom:12px;">Tredox — pádel con Dan y Dani</div>
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dc39jozPjEs/" data-instgrm-version="14"></blockquote>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CÓMO SE VE DESPUÉS -->
-<section class="despues">
-  <div class="container">
-    <div class="fade-up">
-      <div class="section-tag">Con Motor de Creativos adentro</div>
-      <h2 class="section-title">Cómo se ve tu negocio<br>en redes.</h2>
-    </div>
-    <div class="despues-flex fade-up">
-      <div class="despues-col">
-        <div class="despues-item">
-          <div class="despues-icon">✓</div>
-          <div>
-            <h4>Presencia constante</h4>
-            <p>Contenido nuevo todas las semanas, con un plan corriendo detrás.</p>
-          </div>
-        </div>
-        <div class="despues-item">
-          <div class="despues-icon">✓</div>
-          <div>
-            <h4>Instagram deja de ser una obligación</h4>
-            <p>Sabés qué se publica, por qué y cuándo. Con un plan, no con ansiedad.</p>
-          </div>
-        </div>
-        <div class="despues-item">
-          <div class="despues-icon">✓</div>
-          <div>
-            <h4>Contenido con guion e idea resueltos</h4>
-            <p>Cada pieza te llega lista. No te sentás más a pensar qué publicar.</p>
-          </div>
-        </div>
-      </div>
-      <div class="despues-col">
-        <div class="despues-item">
-          <div class="despues-icon">✓</div>
-          <div>
-            <h4>Las novedades salen rápido</h4>
-            <p>Un producto nuevo, un servicio, un evento: lo grabamos y lo publicamos mientras sigue siendo noticia.</p>
-          </div>
-        </div>
-        <div class="despues-item">
-          <div class="despues-icon">✓</div>
-          <div>
-            <h4>Consultas filtradas</h4>
-            <p>Un bot responde en tiempo real y te deriva a WhatsApp solo a los leads reales.</p>
-          </div>
-        </div>
-        <div class="despues-item">
-          <div class="despues-icon">✓</div>
-          <div>
-            <h4>Decisiones con datos</h4>
-            <p>Cada mes ves qué piezas funcionaron y qué ajustamos en la estrategia.</p>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -1475,17 +1471,9 @@ footer a {
       <div class="sobre-mi-text">
         <h3>Julián Emanuel</h3>
         <p>Tengo 23 años, soy estudiante de la Licenciatura en Estudios de la Comunicación y hace más de 3 años ayudo a marcas a comunicar y vender a través de redes sociales.</p>
-        <p>En 2021 arranqué ayudando a la fábrica de muebles de mi hermano. <strong>Sin muchos conocimientos, pero con muchas ganas.</strong> Desde ese momento no paré: pasé por roles de ventas, edición de video, estrategia de contenido y más, trabajando con distintas marcas.</p>
         <p>Con el tiempo entendí algo clave: <strong>el problema de la mayoría de las marcas no es el producto ni la atención, es que no tienen un sistema de contenido que genere consultas nuevas cada semana.</strong></p>
         <p>Hoy sigo buscando crecer y ayudar a más marcas a captar la atención de las personas, <strong>para convertir seguidores en clientes.</strong> Motor de Creativos es mi forma de hacerlo: estar adentro de tu negocio, encontrar lo que lo hace distinto y convertirlo en contenido que genere consultas.</p>
       </div>
-    </div>
-    
-    <!-- VOS CARD -->
-    <div class="vos-card fade-up">
-      <h3>Capaz te sentís identificado.</h3>
-      <p>Sos alguien que arma su marca o su negocio con esfuerzo real: producto, atención, calidad. <strong>Hacés bien tu trabajo.</strong> Pero cuando mirás Instagram, sentís que es otro mundo. Que hay que saber de marketing, de edición, de algoritmos, y no tenés tiempo para eso.</p>
-      <p style="margin-top:16px;">La realidad es más simple: <strong>tu marca necesita un sistema de contenido que la haga visible, semana a semana.</strong> No necesitás ser influencer. No necesitás convertirte en editor de video. Necesitás que tu presencia en redes trabaje para vos, no al revés.</p>
     </div>
   </div>
 </section>
